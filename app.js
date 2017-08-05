@@ -33,10 +33,10 @@ const index = require('./routes/index');
 app.use('/', index);
 
 const about = require('./routes/about');
-app.use('/about', about);
+app.use('/', about);
 
 const contact = require('./routes/contact');
-app.use('/contact', contact);
+app.use('/', contact);
 
 
 // catch 404 and forward to error handler
