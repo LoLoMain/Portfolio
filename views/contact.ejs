@@ -1,14 +1,20 @@
 <!-- Contact -->
   <article class="container box style3">
     <header>
-      <h2>Nisl sed ultricies</h2>
+      <h2>Contact Me</h2>
       <p>Diam dignissim lectus eu ornare volutpat orci.</p>
     </header>
     <form method="post" action="/contact">
       <div class="row 50%">
-        <div class="6u 12u$(mobile)"><input type="text" class="text" name="name" placeholder="Name" /></div>
-        <div class="6u$ 12u$(mobile)"><input type="text" class="text" name="email" placeholder="Email" /></div>
+        <div class="6u 12u$(mobile)">
+          <label for="nameInput">Name:</label>
+          <input id="nameInput" type="text" class="text" name="name" placeholder="First and Last Name"/>
+        </div>
+        <div class="6u$ 12u$(mobile)">
+          <label for="emailInput">Email:</label>
+          <input id="emailInput" type="email" class="text" name="email" placeholder="user@example.com"/></div>
         <div class="12u$">
+          <label for="messageInput">Message:</label>
           <textarea name="message" placeholder="Message"></textarea>
         </div>
         <div class="12u$">
